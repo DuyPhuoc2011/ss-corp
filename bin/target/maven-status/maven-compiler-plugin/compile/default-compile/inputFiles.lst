@@ -1,0 +1,13 @@
+/Users/PhuocNguyen/Data/deploy-projects/java-springboot-registration-login-1/src/main/java/com/akjavadev/auth/WebSecurityConfig.java
+/Users/PhuocNguyen/Data/deploy-projects/java-springboot-registration-login-1/src/main/java/com/akjavadev/auth/service/SecurityServiceImpl.java
+/Users/PhuocNguyen/Data/deploy-projects/java-springboot-registration-login-1/src/main/java/com/akjavadev/auth/repository/UserRepository.java
+/Users/PhuocNguyen/Data/deploy-projects/java-springboot-registration-login-1/src/main/java/com/akjavadev/auth/WebApplication.java
+/Users/PhuocNguyen/Data/deploy-projects/java-springboot-registration-login-1/src/main/java/com/akjavadev/auth/service/UserServiceImpl.java
+/Users/PhuocNguyen/Data/deploy-projects/java-springboot-registration-login-1/src/main/java/com/akjavadev/auth/validator/UserValidator.java
+/Users/PhuocNguyen/Data/deploy-projects/java-springboot-registration-login-1/src/main/java/com/akjavadev/auth/model/User.java
+/Users/PhuocNguyen/Data/deploy-projects/java-springboot-registration-login-1/src/main/java/com/akjavadev/auth/service/UserDetailsServiceImpl.java
+/Users/PhuocNguyen/Data/deploy-projects/java-springboot-registration-login-1/src/main/java/com/akjavadev/auth/model/Role.java
+/Users/PhuocNguyen/Data/deploy-projects/java-springboot-registration-login-1/src/main/java/com/akjavadev/auth/service/SecurityService.java
+/Users/PhuocNguyen/Data/deploy-projects/java-springboot-registration-login-1/src/main/java/com/akjavadev/auth/repository/RoleRepository.java
+/Users/PhuocNguyen/Data/deploy-projects/java-springboot-registration-login-1/src/main/java/com/akjavadev/auth/web/UserController.java
+/Users/PhuocNguyen/Data/deploy-projects/java-springboot-registration-login-1/src/main/java/com/akjavadev/auth/service/UserService.java

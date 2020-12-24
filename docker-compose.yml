@@ -1,0 +1,27 @@
+version: "3"
+services:
+ mysqldb:
+  image: mysql:8
+  restart: always
+  ports:
+   - "3307:3306"
+  command: --default-authentication-plugin=mysql_native_password
+  environment:
+   - MYSQL_ROOT_PASSWORD=password
+   - MYSQL_DATABASE=restful_api
+  networks:
+   - auth_network
+ auth_app:
+  build: ./
+  image: auth
+  restart: always
+  ports:
+   - "8080:8080"
+  environment:
+   SPRING_DATASOURCE_URL: jdbc:mysql://mysqldb:3306/restful_api?useSSL=false
+  networks:
+   - auth_network
+  depends_on:
+   - mysqldb
+networks:
+ auth_network:
