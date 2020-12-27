@@ -11,4 +11,4 @@ Steps noted:
 That's it.
 
 Build steps:
- - Create Jenkins pipeline - Updated 1.0
+ - Create Jenkins pipeline - Updated 1.1
