@@ -3,9 +3,12 @@ pipeline {
   stages {
     stage('build') {
       steps {
-        git(url: 'https://github.com/DuyPhuoc2011/ss-corp.git', branch: 'main', poll: true)
+        echo 'Pulling...'
+        script {
+          sh "git pull"
+        }
+        echo 'Pulled codes'  
       }
     }
-
   }
 }
