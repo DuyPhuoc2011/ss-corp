@@ -3,14 +3,6 @@ pipeline {
   stages {
     stage('build') {
       steps {
-<<<<<<< HEAD
-        git(url: 'https://github.com/DuyPhuoc2011/ss-corp.git', branch: 'main', poll: true)
-      }
-    }
-
-  }
-}
-=======
         echo 'Pulling...'
         script {
           sh "git pull"
@@ -20,4 +12,3 @@ pipeline {
     }
   }
 }
->>>>>>> parent of 76b7ea3... Removed Jenkinsfile
