@@ -5,7 +5,7 @@ pipeline {
       steps {
         echo 'Pulling...'
         script {
-          sh "git pull main"
+          sh "git clone https://github.com/DuyPhuoc2011/ss-corp.git"
         }
         echo 'Pulled codes'  
       }
