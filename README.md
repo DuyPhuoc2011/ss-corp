@@ -9,3 +9,6 @@ Steps noted:
 - The project includes all steps to deploy it seft on cloud environment - GCP. There are CI/CD pipline with Jenkins and other configurations with Docker, Kubernetes and Terraform.
 
 That's it.
+
+Build steps:
+ - Create Jenkins pipeline.
