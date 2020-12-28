@@ -7,10 +7,14 @@ pipeline {
         script {
           sh "git pull origin main"
         }
-        echo 'Pulled codes'  
+        echo 'Pulled codes'
+        echo 'Building app...'
+        script {
+          sh "mvn clean install"
+          sh "mvn package"
+        }     
       }
     }
-
     stage('Deploy') {
       steps {
         script {
