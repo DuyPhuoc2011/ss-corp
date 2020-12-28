@@ -10,5 +10,14 @@ pipeline {
         echo 'Pulled codes'  
       }
     }
+
+    stage('Deploy') {
+      steps {
+        script {
+          sh "docker-compose up -d"
+        }
+        echo 'Deployed application!'
+      }
+    }
   }
 }
