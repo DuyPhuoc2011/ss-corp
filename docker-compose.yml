@@ -16,7 +16,7 @@ services:
   image: auth
   restart: always
   ports:
-   - "8080:8080"
+   - "8081:8081"
   environment:
    SPRING_DATASOURCE_URL: jdbc:mysql://mysqldb:3306/restful_api?useSSL=false
   networks:
